@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <style>
+
+        *{             /* *Universal selector, πιάνει όλα τα στοιχεία */
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        ul{
+            /*diplay */
+            display: flex;   /*default horizontal alignment */
+            justify-content: center;
+            align-items: center; /*για κάθετο */
+            gap: 20px;
+
+            /*Visual */
+            list-style: none;   /*φευγουν τα bullets */
+        }
+        a {
+            /*diplay */
+            display: inline-block;  /*δίνει width/padding */
+
+            /*Box Model */
+            padding: 5px 80px;
+            border: 1px solid black;
+
+            /*Typography */
+            font-weight: bold;
+            text-decoration: none;   /*φευγει η υπογράμμιση*/
+
+            /* Visual */
+            color: black;
+            cursor: pointer;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">.NET Core</a></li>
+        <li><a href="#">Angular</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.city {
+    width:400px;
+    height: auto;
+}
+
+.img-rounded {
+    border-radius: 10px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+/* η εικόνα ήταν ορθογώνια. για να την κάνουμε
+στρογγυλή, δίνουμε συγκεκριμένο πλάτος και ύψος, και
+σε συνδυασμό με το radius, γίνεται κύκλος. */
+
+.thumbnail {
+    width: 150px;
+    height: auto;
+    /* border: 2px double rgb(177, 174, 174) */
+    border-width: 5px;
+    border-style:double;
+    border-color: rgb(177, 174, 174);
+}
+
+.thumbnail:hover {
+    box-shadow: 0px 0px 2px 2px rgb(55, 186, 230 );
+    width: 155px;
+    height: auto;
+}
+
+.card {
+    width: 600px;
+    border: 1px solid red;
+    box-shadow: 0 0 2px 2px lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* 10px πάνω-κάτω, 20px δεξία αριστερά */
+    padding: 10px 20px;
+    /*μπορεί να γίνει και για τις 4 διαστάσεις,
+    10px πάνω, 20 πιξελ δεξία, 10 πίξελ κάτω, 20 πίξελ αριστερά */
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.london-bg {
+    height: 800px;
+    background-color: rgb(182, 227, 212);
+    background-image: url(/img/london.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* το κάνει fixed */ 
+}
