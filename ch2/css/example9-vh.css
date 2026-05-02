@@ -1,0 +1,10 @@
+.header {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.aueb-img > img {
+    /* height: 600px; */
+    height: calc(95vh - 200px);
+    /* το 90% από το σύνολο της σελίδας (vh - vertical height) /./. vertical width υπάρχει επίσης */
+}
