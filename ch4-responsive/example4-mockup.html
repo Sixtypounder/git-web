@@ -57,7 +57,7 @@
          </div>
 
          <!-- Main -->
-          <main class="mt-2 mb-2">
+          <main class="mt-2 mb-2" id="main">
             <h2 class="mb-2">Coding Factory</h2>
             <section>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe temporibus laboriosam quos ut harum sequi sit nisi, in error dolorem ducimus exercitationem blanditiis velit sed. Eaque cum harum quia mollitia!
@@ -70,7 +70,7 @@
             </section>
             </main>
 
-            <footer>
+            <footer id="footer">
                 <div>&copy Coding Factory 2026 - Athens University of Economics and Business</div>
                 <div>
                     <span>Follow us:</span>
@@ -81,20 +81,21 @@
     </div>
     
 
-    <!-- <script>
-      const img = document.querySelector('.home-img')
-      const toggleBtn = document.querySelector('.navbar-toggler')
-      const navbarToggle = document.querySelector('.menu-toggler')
-      const main = document.getElementByTagName('main')
-      const footer = document.querySelector('footer')
- 
-      toggleBtn.addEventListener('click', function() {
-          img.classList.toggle('hidden')
-          navbarToggle.classList.toggle('show')
-          main.classList.toggle('hidden')
-          footer.classList.toggle('hidden')
-      })
-  </script> -->
+    <script>
+        const img = document.querySelector('.home-img');
+        const toggleBtn = document.querySelector('.navbar-toggler');
+        const navbarToggle = document.querySelector('.menu-toggler');
+        const main = document.getElementById('main');
+        const footer = document.getElementById('footer');
+        
+        toggleBtn.addEventListener('click', function() {
+            img.classList.toggle('hidden');
+            navbarToggle.classList.toggle('show');
+            main.classList.toggle('hidden');
+            footer.classList.toggle('hidden');
+        })
+        
+     </script>
 
 </body>
 </html>
