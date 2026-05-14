@@ -37,6 +37,15 @@ nav {
     width: 80%;
 }
 
+main {
+   flex: 80%;
+   height: calc(100vh - 105px);
+}
+
+aside {
+    flex: 20%;
+}
+
 /* Footer Styling */
 footer {
     border-top: 10px solid var(--blue);
@@ -83,6 +92,8 @@ footer {
     margin-bottom: 2rem;
 }
 
+
+
 .p-1 {
    padding: 1rem;      
 }
@@ -124,6 +135,10 @@ footer {
     font-size: 1rem;
 }
 
+.font-size-075 {
+    font-size: 0.75rem;
+}
+
 .text-lightgrey-200 {
     color: var(--lightgrey-200) ;
 }
@@ -138,6 +153,10 @@ footer {
 
 .text-blue {
     color: var(--blue);
+}
+
+.text-yellow {
+    color: var(--yelow);
 }
 
 .text-decoration-none{
