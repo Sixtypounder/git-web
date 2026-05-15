@@ -90,16 +90,26 @@
             <p class="border border-lightgrey-300 bg-lightgrey-300 p-1 text-lightgrey-500">Παρακαλώ εισάγετε στοιχεία οικοπέδου</p>
            </section>
 
-           <form>
-            <div>
-                <span><strong>Εντοπισμός Οικοπέδου:</strong></span>
-                <input type="radio" checked="checked" 
+           <form class="mt-1">
+            <div class="mb-2">
+                <span class="ml-1"><strong>Εντοπισμός Οικοπέδου:</strong></span>
+                <input class="ml-1" type="radio" checked="checked" 
                 name="fieldRadio" id="kaek">
-                <label for="id">ΚΑΕΚ</label>
-                <input type="radio" name="fieldRadio"
+                <label class="ml-05" for="id">ΚΑΕΚ</label>
+                <input class="ml-1" type="radio" name="fieldRadio"
                 id="coordinates">
-                <label for="coordinates">Συντεταγμένες (x,y)</label>
-                <span>i</span>
+                <label class="ml-05" for="coordinates">Συντεταγμένες (x,y)</label>
+                <span class="ml-1 info">i</span>
+            </div>
+
+            <div class="mb-2">
+                <p>Παρακαλώ εισάγετε το ΚΑΕΚ του οικοπέδου και πατήστε αναζήτηση</p>
+                <fieldset> 
+                    <legend class="font-size-075 text-lightgrey-500">ΚΑΕΚ</legend>
+                    <input class="col-12 h-2 no-border" type="text" name="" id="">
+                    <span class="text-info">Εισάγετε το ΚΑΕΚ του οικοπέδου</span>
+                </fieldset>
+
             </div>
 
            </form>
