@@ -56,6 +56,27 @@ footer {
     width: auto;
 }
 
+/* Stepper Styling */
+.stepper-circle {
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: var(--white);
+    background-color: var(--lightgrey-300);
+}
+
+.stepper-border-bottom {
+    display: block;
+    border-bottom: 1px solid var(--lightgrey-200);
+}
+
+.active {
+    background-color: var(--gov-blue);
+
+}
+
 /* Displays */
 .d-flex {
     display: flex;
@@ -70,6 +91,16 @@ footer {
 .flex-row {
     flex-direction: row;
 }
+
+
+.d-block {
+    display: block;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
 
 /* Margin - Padding */
 .mr-1 {
@@ -90,6 +121,12 @@ footer {
 
 .mb-2  {
     margin-bottom: 2rem;
+}
+
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
@@ -129,10 +166,21 @@ footer {
     background-color: var(--lightgrey-300);
 }
 
+.bg-lightgrey-200 {
+    background-color: var(--lightgrey-200);
+}
+
+.text-lightgrey-500 {
+    color: var(--lightgrey-500);
+}
 
 /* Text Styling */
 .font-size-1 {
     font-size: 1rem;
+}
+
+.font-size-2  {
+    font-size: 2rem;
 }
 
 .font-size-075 {
@@ -181,4 +229,8 @@ footer {
 
 .border-radius-15 {
     border-radius: 15%;
+}
+
+.border-lightgrey-300{
+    border-color: var(--lightgrey-300);
 }
