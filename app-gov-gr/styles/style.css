@@ -40,6 +40,7 @@ nav {
 main {
    flex: 80%;
    height: calc(100vh - 105px);
+   overflow: auto;
 }
 
 aside {
@@ -114,6 +115,9 @@ footer {
     flex-grow: 1;
 }
 
+.justify-end {
+    justify-content: end;
+}
 
 /* Margin - Padding */
 .mr-1 {
@@ -167,7 +171,10 @@ footer {
 
 .pl-1 {
     padding-left: 1rem;
+}
 
+.pl-075 {
+      padding-left: 0,75rem;
 }
 
 .pr-1 {
@@ -194,6 +201,10 @@ footer {
 
 .text-lightgrey-500 {
     color: var(--lightgrey-500);
+}
+
+.bg-white {
+    background-color: var(--white);
 }
 
 /* Text Styling */
@@ -277,6 +288,10 @@ footer {
 
 .h-2 {
     height: 2rem;
+}
+
+.h-25 {
+    height: 2.5rem;
 }
 
 /* Styling Forms */
